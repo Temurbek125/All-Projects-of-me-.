@@ -1,0 +1,37 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+  /* text-shadow: 10px 10px 2px rgba(59, 56, 56, 0.2); */
+  font-weight: 900;
+  background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+.countdown-box {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  position: relative;
+}
+.image img {
+  width: 50%;
+  height: 65vh;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, 0%);
+}

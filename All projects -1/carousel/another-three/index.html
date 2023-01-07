@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section class="first-testimonial-area">
+    <div class="testimonial-container">
+      <div class="testimonial owl-carousel">
+
+        <div class="single-testimonial">
+          <div class="info">
+            <div>
+              <a href="#"><img src="./Group.png" alt="img"></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="single-testimonial">
+          <div class="info">
+            <div>
+              <a href="#"><img src="./Group.png" alt="img"></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="single-testimonial">
+          <div class="info">
+            <div>
+              <a href="#"><img src="./Group.png" alt="img"></a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.testimonial').owlCarousel({
+          loop: true,
+          nav: false,
+          dots: true,
+          margin: 50,
+          autoplay: true,
+          autoplayTimeout: 4000,
+          smartSpeed: 800,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 1
+            },
+            1000: {
+              items: 1
+            }
+          }
+        })
+      });
+    </script>
+  </section>
+  
+</body>
+
+</html>
